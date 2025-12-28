@@ -1,0 +1,18 @@
+{
+  "$schema": "./schemas/registry.schema.json",
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-28T00:00:00Z",
+  "extensions": [
+    {
+      "id": "ollama-provider",
+      "name": "Ollama AI Provider",
+      "description": "Connect Stina to your local Ollama instance for private, offline AI conversations",
+      "author": "einord",
+      "repository": "https://github.com/einord/stina-ext-ollama",
+      "latestVersion": "1.0.0",
+      "categories": ["ai-provider"],
+      "downloads": 0,
+      "verified": true
+    }
+  ]
+}

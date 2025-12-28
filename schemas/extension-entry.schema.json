@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stina Extension Entry",
+  "type": "object",
+  "required": ["id", "name", "description", "author", "repository", "license", "categories", "versions"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "author": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["ai-provider", "tool", "theme", "utility"]
+      }
+    },
+    "verified": {
+      "type": "boolean"
+    },
+    "versions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/VersionEntry"
+      }
+    }
+  },
+  "definitions": {
+    "VersionEntry": {
+      "type": "object",
+      "required": ["version", "releaseDate", "minStinaVersion", "platforms", "downloadUrl", "permissions"],
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "releaseDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "minStinaVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["web", "electron", "tui"]
+          }
+        },
+        "downloadUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "permissions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "changelog": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

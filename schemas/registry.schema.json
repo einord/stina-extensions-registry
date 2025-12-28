@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Stina Extensions Registry",
+  "type": "object",
+  "required": ["version", "lastUpdated", "extensions"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/RegistryEntry"
+      }
+    }
+  },
+  "definitions": {
+    "RegistryEntry": {
+      "type": "object",
+      "required": ["id", "name", "description", "author", "repository", "latestVersion", "categories"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        },
+        "repository": {
+          "type": "string",
+          "format": "uri"
+        },
+        "latestVersion": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["ai-provider", "tool", "theme", "utility"]
+          }
+        },
+        "downloads": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "verified": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
