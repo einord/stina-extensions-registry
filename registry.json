@@ -1,18 +1,22 @@
 {
-  "$schema": "./schemas/registry.schema.json",
-  "version": "1.0.0",
-  "lastUpdated": "2025-12-29T19:51:00Z",
+  "$schema": "./schemas/registry.v2.schema.json",
+  "version": "2.0.0",
+  "lastUpdated": "2025-12-29T20:00:00Z",
   "extensions": [
     {
       "id": "ollama-provider",
-      "name": "Ollama AI Provider",
-      "description": "Connect Stina to your local Ollama instance for private, offline AI conversations",
-      "author": "einord",
       "repository": "https://github.com/einord/stina-ext-ollama",
-      "latestVersion": "1.0.1",
       "categories": ["ai-provider"],
-      "downloads": 0,
-      "verified": true
+      "verified": true,
+      "blocked": false,
+      "featured": true,
+      "verifiedVersions": [
+        {
+          "version": "1.0.1",
+          "sha256": "542394e85b3b3e5eed04781986da89a851f8feb8043d7ee43e817ee730ec4b98",
+          "verifiedAt": "2025-12-29"
+        }
+      ]
     }
   ]
 }
