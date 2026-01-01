@@ -6,11 +6,18 @@
     {
       "id": "ollama-provider",
       "repository": "https://github.com/einord/stina-ext-ollama",
-      "categories": ["ai-provider"],
+      "categories": [
+        "ai-provider"
+      ],
       "verified": true,
       "blocked": false,
       "featured": true,
       "verifiedVersions": [
+        {
+          "version": "1.0.3",
+          "sha256": "6643dbcd6fe6b90ce7375bce5be71d8116a9c54371ea5221c654b72bede0e861",
+          "verifiedAt": "2026-01-01"
+        },
         {
           "version": "1.0.2",
           "sha256": "8a673a13be274de7472c9ae6006e64556d28343f497b4e6ce4eadba87ec780bb",

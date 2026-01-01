@@ -48,7 +48,7 @@ if [ -z "$VERSION" ]; then
     RELEASE_URL="https://api.github.com/repos/$REPO/releases/latest"
 else
     echo -e "${BLUE}Fetching release $VERSION...${NC}"
-    RELEASE_URL="https://api.github.com/repos/$REPO/releases/tags/$VERSION"
+    RELEASE_URL="https://api.github.com/repos/$REPO/releases/tag/$VERSION"
 fi
 
 # Fetch release data
