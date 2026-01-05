@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2025-12-31T15:35:00Z",
+  "lastUpdated": "2026-01-05T15:16:18Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -27,6 +27,23 @@
           "version": "1.0.1",
           "sha256": "542394e85b3b3e5eed04781986da89a851f8feb8043d7ee43e817ee730ec4b98",
           "verifiedAt": "2025-12-29"
+        }
+      ]
+    },
+    {
+      "id": "people-registry",
+      "repository": "https://github.com/einord/stina-ext-people",
+      "categories": [
+        "tool"
+      ],
+      "verified": false,
+      "blocked": false,
+      "featured": false,
+      "verifiedVersions": [
+        {
+          "version": "0.0.4",
+          "sha256": "739a166326843e11d963c556c369d7562c54c39463e1537cf74d8590ee64e67e",
+          "verifiedAt": "2026-01-05"
         }
       ]
     }
