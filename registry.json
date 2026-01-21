@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-01-21T18:09:59Z",
+  "lastUpdated": "2026-01-21T20:17:44Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -13,6 +13,11 @@
       "blocked": false,
       "featured": true,
       "verifiedVersions": [
+        {
+          "version": "1.0.8",
+          "sha256": "a32e50c25757c1fe7f63a047dbad450e043960863ec8f5051bcaefbbfe040a9b",
+          "verifiedAt": "2026-01-21"
+        },
         {
           "version": "1.0.6",
           "sha256": "754a9d904c23306943e46b9f62c3b64d4265867e6625dfd85ea3c707d0c0a3ca",
@@ -89,6 +94,11 @@
       "blocked": false,
       "featured": false,
       "verifiedVersions": [
+        {
+          "version": "1.0.3",
+          "sha256": "8d1fc80ef84a6bc0b5111ecb080c8b697bccbfda0efa5ee37f1cddfbcea7fffd",
+          "verifiedAt": "2026-01-21"
+        },
         {
           "version": "1.0.0",
           "sha256": "81e233629a99223d322f666df7cf4ffeb823c5191d8157b58b759619dfd1dd49",
