@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-01-17T09:32:21Z",
+  "lastUpdated": "2026-01-21T18:09:59Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -76,6 +76,23 @@
           "version": "0.0.1",
           "sha256": "2565d1b8daeccf6faa7493d81c8b8ab0c9728c257ba7d94b096047437778d5ad",
           "verifiedAt": "2026-01-09"
+        }
+      ]
+    },
+    {
+      "id": "openai-provider",
+      "repository": "https://github.com/einord/stina-ext-openai",
+      "categories": [
+        "ai-provider"
+      ],
+      "verified": false,
+      "blocked": false,
+      "featured": false,
+      "verifiedVersions": [
+        {
+          "version": "1.0.0",
+          "sha256": "81e233629a99223d322f666df7cf4ffeb823c5191d8157b58b759619dfd1dd49",
+          "verifiedAt": "2026-01-21"
         }
       ]
     }
