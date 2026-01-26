@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-01-21T20:17:44Z",
+  "lastUpdated": "2026-01-26T20:51:41Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -103,6 +103,23 @@
           "version": "1.0.0",
           "sha256": "81e233629a99223d322f666df7cf4ffeb823c5191d8157b58b759619dfd1dd49",
           "verifiedAt": "2026-01-21"
+        }
+      ]
+    },
+    {
+      "id": "mail-reader",
+      "repository": "https://github.com/einord/stina-ext-mail",
+      "categories": [
+        "tool"
+      ],
+      "verified": false,
+      "blocked": false,
+      "featured": false,
+      "verifiedVersions": [
+        {
+          "version": "0.1.0",
+          "sha256": "9e0c8775b1a7ea512ac661ded2c30a98e5df4925635ff1121b40c8a20edecd82",
+          "verifiedAt": "2026-01-26"
         }
       ]
     }
