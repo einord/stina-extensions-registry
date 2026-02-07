@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-01-26T20:51:41Z",
+  "lastUpdated": "2026-02-07T19:09:51Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -13,6 +13,11 @@
       "blocked": false,
       "featured": true,
       "verifiedVersions": [
+        {
+          "version": "1.0.11",
+          "sha256": "e203b2b2c9aef0ed6f2c35d33fad5615a232c8ec420a276578df12a410b713f9",
+          "verifiedAt": "2026-02-07"
+        },
         {
           "version": "1.0.8",
           "sha256": "a32e50c25757c1fe7f63a047dbad450e043960863ec8f5051bcaefbbfe040a9b",
@@ -51,6 +56,11 @@
       "featured": false,
       "verifiedVersions": [
         {
+          "version": "0.0.12",
+          "sha256": "d3db89e35ccd4ef275d36275b5b307db85441e58878d987f87515131e4f37b8c",
+          "verifiedAt": "2026-02-07"
+        },
+        {
           "version": "0.0.8",
           "sha256": "c54fe5e9ae8e28ccf52dc44f97a9b6b46762e799acf16f7145e4a3a94dadeaf7",
           "verifiedAt": "2026-01-17"
@@ -72,6 +82,11 @@
       "blocked": false,
       "featured": false,
       "verifiedVersions": [
+        {
+          "version": "0.1.4",
+          "sha256": "30dc68d661a72d2f8d37611ab5d5f6927f842cd94b34deaea5b4f2e7ddbff124",
+          "verifiedAt": "2026-02-07"
+        },
         {
           "version": "0.0.25",
           "sha256": "cdb52eb441d6fde581e32b2f490be0a6769a84a2247ff53ffa3db189ceafcd58",
@@ -95,6 +110,11 @@
       "featured": false,
       "verifiedVersions": [
         {
+          "version": "1.0.7",
+          "sha256": "cc1d233b6b9f747900d00226e67fb701868036fe192ad22a503498b100e4255c",
+          "verifiedAt": "2026-02-07"
+        },
+        {
           "version": "1.0.3",
           "sha256": "8d1fc80ef84a6bc0b5111ecb080c8b697bccbfda0efa5ee37f1cddfbcea7fffd",
           "verifiedAt": "2026-01-21"
@@ -116,6 +136,16 @@
       "blocked": false,
       "featured": false,
       "verifiedVersions": [
+        {
+          "version": "0.2.4",
+          "sha256": "d9011e32031b5bbc94828c013696eef9af16dccdba978040a3219ecd68c47871",
+          "verifiedAt": "2026-02-07"
+        },
+        {
+          "version": "0.1.1",
+          "sha256": "fffc13ee1ecc1ecd55012d79b5eb4685c1199904292675911b33e3aac1854aaa",
+          "verifiedAt": "2026-01-27"
+        },
         {
           "version": "0.1.0",
           "sha256": "9e0c8775b1a7ea512ac661ded2c30a98e5df4925635ff1121b40c8a20edecd82",
