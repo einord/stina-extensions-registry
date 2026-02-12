@@ -1,7 +1,7 @@
 {
   "$schema": "./schemas/registry.v2.schema.json",
   "version": "2.0.0",
-  "lastUpdated": "2026-02-07T19:33:02Z",
+  "lastUpdated": "2026-02-10T07:19:14Z",
   "extensions": [
     {
       "id": "ollama-provider",
@@ -155,6 +155,23 @@
           "version": "0.1.0",
           "sha256": "9e0c8775b1a7ea512ac661ded2c30a98e5df4925635ff1121b40c8a20edecd82",
           "verifiedAt": "2026-01-26"
+        }
+      ]
+    },
+    {
+      "id": "calendar-manager",
+      "repository": "https://github.com/einord/stina-ext-calendar",
+      "categories": [
+        "tool"
+      ],
+      "verified": false,
+      "blocked": false,
+      "featured": false,
+      "verifiedVersions": [
+        {
+          "version": "0.1.1",
+          "sha256": "c33f99aa7d5a9b51315faff217b0309c0b757494e6f1d05576808433267f88bc",
+          "verifiedAt": "2026-02-10"
         }
       ]
     }
